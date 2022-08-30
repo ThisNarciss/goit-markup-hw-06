@@ -423,26 +423,27 @@
             </li>
           </ul>
         </div>
-        <form class="sign-up-form" name="sign-up-form">
-          <div class="for-box">
-            <label for="footer-mail" class="sign-up-title"
-              >Підпишіться на розсилку
+        <div class="for-box">
+          <p class="sign-up-title">Підпишіться на розсилку</p>
+          <form class="sign-up-form">
+            <label
+              ><input
+                class="form-email"
+                type="email"
+                name="mail"
+                placeholder="E-mail"
+                id="footer-mail"
+              />
             </label>
-            <input
-              class="form-email"
-              type="email"
-              name="mail"
-              placeholder="E-mail"
-              id="footer-mail"
-            />
-          </div>
-          <button class="form-btn" type="submit">
-            Підписатися
-            <svg class="form-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
+
+            <button class="form-btn" type="submit">
+              Підписатися
+              <svg class="form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
